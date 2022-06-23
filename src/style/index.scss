@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth!important;
+}
+a:hover {
+  color: #FFFFFF!important;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.75) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import "reset";
+@import "header";
+@import "main";
+@import "footer";
+@import "./blocks/block1";
+@import "./blocks/block2";
+@import "./blocks/block3";
+@import "./blocks/block4";
+@import "./blocks/block5";
+@import "./card";
+@import "./accordion";
+@import "./parallax";
+@import "~bootstrap/scss/bootstrap";

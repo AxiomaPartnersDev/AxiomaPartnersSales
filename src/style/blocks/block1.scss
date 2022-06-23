@@ -1,0 +1,120 @@
+.block1 {
+
+  display: flex;
+  justify-content: center;
+}
+
+.block1__text__container {
+  width: 50%;
+  max-width: 600px;
+}
+
+.block1__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: -0.02em;
+
+  color: #2C2B2E;
+}
+
+.block1__text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2B2E;
+  margin-top: 15px;
+  width: 85%;
+}
+
+.block1__btn {
+  background: linear-gradient(90deg, #54B2F7 0%, #1775E3 100%);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  height: 90px;
+  width: 330px;
+  margin-top: 50px;
+}
+
+.arrow__span {
+  position: relative;
+  top: 1px;
+  left: 10px;
+}
+
+.block1__img__container {
+  position: relative;
+  left: -80px;
+}
+
+.block1__img {
+  max-width: 703px;
+  max-height: 423px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.block1__img__text__container {
+  max-width: 703px;
+  max-height: 423px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: none;
+}
+
+@media screen and (max-width: 1110px) {
+  .block1__text__container {
+    width: 100%;
+  }
+  .block1__img {
+    display: none;
+  }
+  .block1__img__text__container {
+    display: block;
+  }
+  .block1__title {
+    padding: 0 25px;
+  }
+  .block1__text{
+    width: 100%;
+    padding: 5px 25px;
+    margin: 0;
+  }
+  .block1__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .block1__title{
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .block1__text{
+    font-size: 18px;
+    line-height:22px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .block1__btn{
+    margin: 20px auto;
+    height: 66px;
+    width: 300px;
+  }
+}

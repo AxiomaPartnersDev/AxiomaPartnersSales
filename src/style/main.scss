@@ -1,0 +1,17 @@
+.main {
+  padding-top: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.main__container {
+  max-width: 1840px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1110px) {
+  .main {
+    padding-top: 15px;
+  }
+}

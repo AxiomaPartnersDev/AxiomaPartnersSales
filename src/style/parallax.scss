@@ -1,0 +1,29 @@
+.box1__container{
+  position: absolute;
+  bottom: -250px;
+  right: -225px;
+}
+.box2__container{
+  position: absolute;
+  bottom: -250px;
+  left: -190px;
+}
+.box3__container{
+  position: absolute;
+  bottom: -250px;
+  right: -385px;
+}
+.boxtest__container{
+  position: absolute;
+  top:0px;
+  right: 5px;
+}
+.box__img{
+  width: 375px;
+  height: 375px;
+  object-fit: contain;
+  opacity: 0.7;
+}
+.box__img2{
+  transform: rotate(50deg);
+}

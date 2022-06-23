@@ -1,0 +1,29 @@
+.block2 {
+  padding-top: 80px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.block2__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  color: #2C2B2E;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1110px) {
+  .block2 {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .block2__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

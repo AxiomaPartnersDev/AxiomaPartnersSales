@@ -1,0 +1,32 @@
+.accordion{
+  padding: 0 25px;
+}
+
+.accordion__item{
+  margin: 16px 0;
+  border: 4px solid #C6DCFF;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.accordion__header{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #2C2B2E;
+}
+
+.accordion-button:focus{
+  box-shadow:none !important;
+}
+.accordion-button::after{
+  background-image: url("../assets/main/bx_chevron-down.png") !important;
+}
+
+@media screen and (max-width: 800px) {
+  .accordion-button{
+    padding: 20px!important;
+  }
+}
