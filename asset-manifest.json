@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AxiomaPartnersSales/static/css/main.4a42748a.css",
-    "main.js": "/AxiomaPartnersSales/static/js/main.352e3017.js",
+    "main.css": "/AxiomaPartnersSales/static/css/main.ae3932ec.css",
+    "main.js": "/AxiomaPartnersSales/static/js/main.03ac8543.js",
     "static/media/Box2.png": "/AxiomaPartnersSales/static/media/Box2.b4ccc003c6bf0149f58f.png",
     "static/media/Box1.png": "/AxiomaPartnersSales/static/media/Box1.56e1ecfb6dd0dd29e595.png",
     "static/media/Box3.png": "/AxiomaPartnersSales/static/media/Box3.a0e9a73c07d2f8b02b0e.png",
     "static/media/img__top.png": "/AxiomaPartnersSales/static/media/img__top.72b80fff4f2bb27c517b.png",
     "index.html": "/AxiomaPartnersSales/index.html",
-    "main.4a42748a.css.map": "/AxiomaPartnersSales/static/css/main.4a42748a.css.map",
-    "main.352e3017.js.map": "/AxiomaPartnersSales/static/js/main.352e3017.js.map"
+    "main.ae3932ec.css.map": "/AxiomaPartnersSales/static/css/main.ae3932ec.css.map",
+    "main.03ac8543.js.map": "/AxiomaPartnersSales/static/js/main.03ac8543.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a42748a.css",
-    "static/js/main.352e3017.js"
+    "static/css/main.ae3932ec.css",
+    "static/js/main.03ac8543.js"
   ]
 }
