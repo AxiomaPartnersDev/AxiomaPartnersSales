@@ -1,5 +1,5 @@
 .block1 {
-padding: 0 10px;
+  padding: 0 10px;
   display: flex;
   justify-content: center;
 }
@@ -84,16 +84,17 @@ padding: 0 10px;
   }
   .block1__img__text__container {
     display: block;
+    min-height: 250px;
   }
   .block1__title {
     padding: 0 25px;
   }
-  .block1__text{
+  .block1__text {
     width: 100%;
     padding: 5px 25px;
     margin: 0;
   }
-  .block1__btn{
+  .block1__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,17 +103,24 @@ padding: 0 10px;
 }
 
 @media screen and (max-width: 600px) {
-  .block1__title{
+  .block1__title {
     font-size: 30px;
     line-height: 37px;
   }
-  .block1__text{
+  .block1__text {
     font-size: 18px;
-    line-height:22px;
+    line-height: 22px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .block1__img__text__container {
+    min-height: 200px;
+  }
+}
+
 @media screen and (max-width: 340px) {
-  .block1__btn{
+  .block1__btn {
     margin: 20px auto;
     height: 66px;
     width: 300px;

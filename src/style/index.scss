@@ -18,6 +18,10 @@ code {
     monospace;
 }
 
+p {
+  margin-bottom:0!important;
+}
+
 @import "reset";
 @import "header";
 @import "main";

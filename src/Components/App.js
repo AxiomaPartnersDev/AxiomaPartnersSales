@@ -17,10 +17,8 @@ const App = () => {
     },[popup])
     return (
         <>
-            <Header/>
-            <Main
-                  openPopup={openPopup}
-                  closePopup={closePopup}/>
+            <Header openPopup={openPopup}/>
+            <Main openPopup={openPopup} closePopup={closePopup}/>
             <Footer/>
             <Form popup={popup} closePopup={closePopup}/>
         </>

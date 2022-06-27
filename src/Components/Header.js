@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoAxioma from "./icons/LogoAxioma";
 
-const Header = () => {
+const Header = ({openPopup}) => {
     return (
         <header className="header">
             <div className="header__container">
@@ -12,7 +12,7 @@ const Header = () => {
                     <a href="#weDo" className="header__text">Що ми робимо</a>
                     <a href="#questions" className="header__text">Часто задавані питання</a>
                     <a href="#contacts" className="header__contact">Контакти</a>
-                    <button className="header__btn">Написати нам</button>
+                    <button onClick={()=>openPopup()} className="header__btn">Написати нам</button>
                 </div>
             </div>
         </header>
