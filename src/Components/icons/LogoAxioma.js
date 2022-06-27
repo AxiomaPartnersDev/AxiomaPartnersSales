@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
 
 const LogoAxioma = () => {
-    // const [w,setW] = useState(0);
-    //
-    // useEffect(()=>{
-    //     setW(window.innerWidth)
-    // },[]);
+    const [w,setW] = useState(0);
+
+    useEffect(()=>{
+        setW(window.innerWidth)
+    },[]);
     return (
-        // <svg width={w > 600 ? "175" : "150"} height="62" viewBox="0 0 175 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <svg width="175" height="62" viewBox="0 0 175 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={w > 600 ? "175" : "100"} height={w > 600 ? "62" : "35"} viewBox="0 0 175 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/*<svg width="175" height="62" viewBox="0 0 175 62" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
             <g clipPath="url(#clip0_2_94)">
                 <path d="M32.8756 48.8756C34.2792 48.8756 35.2817 49.2661 35.8832 50.0471C36.6853 50.828 36.8858 51.609 36.8858 52.7804C36.8858 53.9519 36.4848 54.7329 35.8832 55.5138C35.0812 56.2948 34.0787 56.6853 32.6751 56.6853H30.4695V61.1758H28.4644V48.8756L32.7252 48.8763L32.8756 48.8756ZM32.6751 54.7329C34.0787 54.7329 34.8807 53.7567 34.8807 52.5852C34.8807 51.4138 34.0787 50.6328 32.8756 50.6328H30.4695V54.7329H32.6751Z" fill="white"/>
                 <path d="M50.5204 60.9806L49.3173 58.052H44.7056L43.5026 60.9806H41.4975L46.5102 48.8756H47.7133L52.5255 60.9806H50.5204ZM47.1117 51.8042L45.5077 56.0995H48.9163L47.1117 51.8042Z" fill="white"/>

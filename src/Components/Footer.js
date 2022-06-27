@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__inst">
                     <p className="footer__inst__text footer__text__bold">Ми у інстаграм:</p>
-                    <p className="footer__inst__text">@axiomapartners</p>
+                    <a href="https://instagram.com/axioma.team?igshid=YmMyMTA2M2Y=" target="_blank" className="footer__inst__text">@axiomapartners</a>
                 </div>
                 <div className="footer__location">
                     <p className="footer__location__text footer__text__bold">Київ</p>

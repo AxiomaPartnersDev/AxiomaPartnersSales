@@ -4,20 +4,21 @@ import Block2 from "./Block2";
 import Block3 from "./Block3";
 import Block4 from "./Block4";
 import Block5 from "./Block5";
-import { ParallaxProvider} from "react-scroll-parallax";
+import {ParallaxProvider} from "react-scroll-parallax";
 
-const Main = () => {
+const Main = ({openPopup}) => {
+
     return (
         <main className="main">
             <ParallaxProvider>
-            <Block1/>
-            <div className="main__container">
-                <Block2/>
-                <Block3/>
-                <Block4/>
-                <Block5/>
-            </div>
-        </ParallaxProvider>
+                <Block1 openPopup={openPopup}/>
+                <div className="main__container">
+                    <Block2/>
+                    <Block3/>
+                    <Block4/>
+                    <Block5/>
+                </div>
+            </ParallaxProvider>
         </main>
     );
 };

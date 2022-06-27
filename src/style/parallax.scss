@@ -27,3 +27,22 @@
 .box__img2{
   transform: rotate(50deg);
 }
+
+@media screen and (max-width: 600px){
+  .box__img{
+    width: 225px;
+    height: 225px;
+  }
+  .box1__container {
+    position: absolute;
+    bottom: -250px;
+    right: -125px;
+  }
+  .box2__container {
+    left: -140px;
+  }
+  .box3__container {
+    bottom: -75px;
+    right: -165px;
+  }
+}
